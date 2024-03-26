@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="DebugModule_top">
+ <SubModule name="u_debug_module">
+  <SubModule name="u_dtm" Register="476" Lut="517">
+   <SubModule name="TAP_ctrl" Register="4" Lut="8"/>
+  </SubModule>
+  <SubModule name="u_cdc_dm" Register="92" Lut="685"/>
+  <SubModule name="u_debug" Register="1243" Lut="725"/>
+  <SubModule name="u_cdc_spi" Register="114" Lut="117"/>
+  <SubModule name="u_spi" Register="136" Lut="107"/>
+  <SubModule name="u_cdc_strace" Register="92" Lut="167"/>
+  <SubModule name="u_strace" Register="171" Lut="111">
+   <SubModule name="strace_ram" Register="38" Lut="42" Ssram="8"/>
+  </SubModule>
+ </SubModule>
+</Module>

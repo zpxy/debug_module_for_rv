@@ -1,0 +1,57 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/cdc_41bits_reg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/cdc_64bits_reg.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/debug.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule_top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/dtm.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/jtag_tap_statemachine.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/spi_direct.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/strace.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/trace_fifo.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/trace_update.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 5000,
+ "ResultFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
+    <FileList>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\cdc_41bits_reg.sv" type="verilog"/>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\cdc_64bits_reg.sv" type="verilog"/>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\debug.sv" type="verilog"/>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\DebugModule.sv" type="verilog"/>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\DebugModule_top.sv" type="verilog"/>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\dtm.sv" type="verilog"/>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\jtag_tap_statemachine.sv" type="verilog"/>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\spi_direct.sv" type="verilog"/>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\strace.sv" type="verilog"/>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\trace_fifo.sv" type="verilog"/>
+        <File path="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\trace_update.sv" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="looplimit" value="5000"/>
+        <Option type="output_file" value="D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\gwsynthesis\debug_module_spyglass_signoff_fpga.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

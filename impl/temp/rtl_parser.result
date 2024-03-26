@@ -1,0 +1,106 @@
+[
+ {
+  "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule_top.sv",
+  "InstLine" : 30,
+  "InstName" : "DebugModule_top",
+  "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule_top.sv",
+  "ModuleLine" : 30,
+  "ModuleName" : "DebugModule_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule_top.sv",
+    "InstLine" : 52,
+    "InstName" : "u_debug_module",
+    "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule.sv",
+    "ModuleLine" : 32,
+    "ModuleName" : "DebugModule",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule.sv",
+      "InstLine" : 233,
+      "InstName" : "u_dtm",
+      "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/dtm.sv",
+      "ModuleLine" : 33,
+      "ModuleName" : "dtm",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/dtm.sv",
+        "InstLine" : 640,
+        "InstName" : "TAP_ctrl",
+        "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/jtag_tap_statemachine.sv",
+        "ModuleLine" : 33,
+        "ModuleName" : "jtag_tap_statemachine"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule.sv",
+      "InstLine" : 281,
+      "InstName" : "u_cdc_dm",
+      "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/cdc_41bits_reg.sv",
+      "ModuleLine" : 32,
+      "ModuleName" : "cdc_41bits_reg"
+     },
+     {
+      "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule.sv",
+      "InstLine" : 310,
+      "InstName" : "u_debug",
+      "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/debug.sv",
+      "ModuleLine" : 32,
+      "ModuleName" : "debug"
+     },
+     {
+      "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule.sv",
+      "InstLine" : 360,
+      "InstName" : "u_cdc_spi",
+      "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/cdc_64bits_reg.sv",
+      "ModuleLine" : 32,
+      "ModuleName" : "cdc_64bits_reg"
+     },
+     {
+      "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule.sv",
+      "InstLine" : 397,
+      "InstName" : "u_spi",
+      "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/spi_direct.sv",
+      "ModuleLine" : 33,
+      "ModuleName" : "spi_direct"
+     },
+     {
+      "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule.sv",
+      "InstLine" : 419,
+      "InstName" : "u_cdc_strace",
+      "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/cdc_41bits_reg.sv",
+      "ModuleLine" : 32,
+      "ModuleName" : "cdc_41bits_reg"
+     },
+     {
+      "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/DebugModule.sv",
+      "InstLine" : 450,
+      "InstName" : "u_strace",
+      "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/strace.sv",
+      "ModuleLine" : 33,
+      "ModuleName" : "strace",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/strace.sv",
+        "InstLine" : 412,
+        "InstName" : "strace_ram",
+        "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/trace_fifo.sv",
+        "ModuleLine" : 34,
+        "ModuleName" : "trace_fifo"
+       },
+       {
+        "InstFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/strace.sv",
+        "InstLine" : 438,
+        "InstName" : "trace_fifo_update",
+        "ModuleFile" : "D:/MetaWise/Documents/020220/debug_module/FPGA_debugModule/debug_module_spyglass_signoff_fpga/src/trace_update.sv",
+        "ModuleLine" : 33,
+        "ModuleName" : "trace_update"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

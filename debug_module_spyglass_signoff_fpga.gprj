@@ -1,0 +1,22 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/DebugModule.sv" type="file.verilog" enable="1"/>
+        <File path="src/DebugModule_top.sv" type="file.verilog" enable="1"/>
+        <File path="src/cdc_41bits_reg.sv" type="file.verilog" enable="1"/>
+        <File path="src/cdc_64bits_reg.sv" type="file.verilog" enable="1"/>
+        <File path="src/debug.sv" type="file.verilog" enable="1"/>
+        <File path="src/dtm.sv" type="file.verilog" enable="1"/>
+        <File path="src/jtag_tap_statemachine.sv" type="file.verilog" enable="1"/>
+        <File path="src/spi_direct.sv" type="file.verilog" enable="1"/>
+        <File path="src/strace.sv" type="file.verilog" enable="1"/>
+        <File path="src/trace_fifo.sv" type="file.verilog" enable="1"/>
+        <File path="src/trace_update.sv" type="file.verilog" enable="1"/>
+        <File path="src/debug_module_spyglass_signoff_fpga.cst" type="file.cst" enable="1"/>
+        <File path="src/debug_module_spyglass_signoff_fpga.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

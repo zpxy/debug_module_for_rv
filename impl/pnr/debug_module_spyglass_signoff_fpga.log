@@ -1,0 +1,31 @@
+Reading netlist file: "D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\gwsynthesis\debug_module_spyglass_signoff_fpga.vg"
+Parsing netlist file "D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\gwsynthesis\debug_module_spyglass_signoff_fpga.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\debug_module_spyglass_signoff_fpga.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\pnr\debug_module_spyglass_signoff_fpga.power.html" completed
+Generate file "D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\pnr\debug_module_spyglass_signoff_fpga.pin.html" completed
+Generate file "D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\pnr\debug_module_spyglass_signoff_fpga.rpt.html" completed
+Generate file "D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\pnr\debug_module_spyglass_signoff_fpga.rpt.txt" completed
+Generate file "D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\pnr\debug_module_spyglass_signoff_fpga.sdf" completed
+Generate file "D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\pnr\debug_module_spyglass_signoff_fpga.tr.html" completed
+Generate file "D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\pnr\debug_module_spyglass_signoff_fpga.tr" completed
+Sun Mar 17 14:16:00 2024
+

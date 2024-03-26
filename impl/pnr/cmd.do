@@ -1,0 +1,15 @@
+-d D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\gwsynthesis\debug_module_spyglass_signoff_fpga.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\debug_module_spyglass_signoff_fpga.cst
+-cfg D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\impl\pnr\device.cfg
+-sdc D:\MetaWise\Documents\020220\debug_module\FPGA_debugModule\debug_module_spyglass_signoff_fpga\src\debug_module_spyglass_signoff_fpga.sdc
+-bit
+-tr
+-ph
+-sdf
+-tt
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
